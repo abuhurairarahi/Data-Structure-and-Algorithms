@@ -1,1 +1,0 @@
-![Quick Sort Note](https://i.postimg.cc/BZjdS882/null-(2).png)
