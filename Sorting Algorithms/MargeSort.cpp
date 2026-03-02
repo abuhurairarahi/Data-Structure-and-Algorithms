@@ -16,13 +16,13 @@ void printArray(int array[])
 
 void Marge(int array[], int low, int mid, int high)
 {
+    //combine
     int i = low;
     int j = mid+1;
 
     int temporaryArray[arraySize];
     int tempIndex = low;
 
-    //conquer
     while(i <= mid && j <= high)
     {
         if(array[i] < array[j])
@@ -110,4 +110,30 @@ int main()
     printArray(array);
 
     return 0;
+
+    /*
+   
+    Divide & Conquer (Marge-Sort):
+    1. Divide  --> 2T(n/2)
+    2. Conquer --> O(1)
+    3. Combine --> O(n)
+
+    Time Complexity:
+
+                                     n                               ---> n
+                   n/2               +            n/2                ---> n
+               n/4     +     n/4     +     n/4     +     n/4         ---> n
+           n/8  +  n/8 + n/8  +  n/8 + n/8  +  n/8 + n/8  +  n/8     ---> n
+
+    Marge-Sort & Binary-Tree have same kind of height --> (logn)
+    Per-Level operation: n
+
+    T(n) = Per-Level operation * total-height
+         = n * logn
+         = nlogn
+
+    --> worst case time-complexity: O(nlogn)
+
+    */
+
 }
