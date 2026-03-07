@@ -78,6 +78,7 @@ int main()
 
     cout << "Postion " << postion << " element is: " << address->data << endl;
     
+    return 0;
 }
 
 
