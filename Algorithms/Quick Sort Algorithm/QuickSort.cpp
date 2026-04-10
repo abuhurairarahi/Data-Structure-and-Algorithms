@@ -1,3 +1,5 @@
+//using divide and conquer
+
 #include <iostream>
 
 using namespace std;
