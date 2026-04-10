@@ -18,7 +18,7 @@ sumIndextracker combineSum (vector<int>& dataSet, int low, int mid, int high)
 
     //solving leftsum
     sumIndextracker leftSum;
-    leftSum.sum = dataSet[mid];
+    leftSum.sum = dataSet[i];
     leftSum.startIndex = i;
     leftSum.endIndex = i;
 
