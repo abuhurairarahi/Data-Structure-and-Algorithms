@@ -1,3 +1,5 @@
+//approach: divide and conquer
+
 #include "bits/stdc++.h"
 
 using namespace std;
