@@ -30,7 +30,7 @@ int kadaneAlgo(vector<int>& dataSet)
 
 int main()
 {
-    vector<int> dataSet = {-1, -2, -9};
+    vector<int> dataSet = {-1, -2, -3, -4, -5, -6, -100};
 
     int maxSum = kadaneAlgo(dataSet);
 
