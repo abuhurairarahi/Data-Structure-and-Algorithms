@@ -73,6 +73,7 @@ int main()
     cin >> size;
 
     vector<productInfo> dataSet(size);
+    
     for(int index = 0; index < size; index++)
     {
         cout << "For product " << index+1 << endl;
