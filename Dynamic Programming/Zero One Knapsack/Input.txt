@@ -1,0 +1,12 @@
+intputs:
+4 7
+1 1
+3 4
+4 5
+5 7
+
+output:
+MAX PROFIT: 9
+
+Time Complexity: O(items × capacity)
+Space Complexity: O(items × capacity)
