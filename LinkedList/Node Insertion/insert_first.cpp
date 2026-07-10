@@ -38,6 +38,7 @@ void insertFirst (int data)
 
 int main()
 {
+    //By using this method, the time complexity if O(1)
     insertFirst(10);
     insertFirst(20);
     insertFirst(30);

@@ -49,6 +49,8 @@ void insertLast (int data)
 int main()
 {   
     //Using this method: Time Complexity becomes O(1) 
+    //By default Time Complexity O(n), using a loop.
+    
     insertLast(10);
     insertLast(20);
     insertLast(30);
