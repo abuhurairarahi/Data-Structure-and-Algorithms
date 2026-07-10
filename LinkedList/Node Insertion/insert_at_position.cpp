@@ -82,6 +82,8 @@ int main()
     insert_at_position(30,2);
     insert_at_position(40,3);
     insert_at_position(25,2);
+    insert_at_position(22,2);
+    insert_at_position(5,0);
 
     listNode* iteration = head;
     while(iteration != NULL)
