@@ -54,16 +54,11 @@ int main()
     insertLast(40);
     insertLast(50);
 
-    // listNode* iteration = head;
-    // while(iteration != NULL)
-    // {
-    //     printf("%d ", iteration->data);
-    //     iteration = iteration->nextAddress;
-    // }
-
-    for(listNode* i = head; i != NULL; i=i->nextAddress)
+    listNode* iteration = head;
+    while(iteration != NULL)
     {
-        printf("%d ", i->data);
+        printf("%d ", iteration->data);
+        iteration = iteration->nextAddress;
     }
 
     return 0;
