@@ -5,6 +5,8 @@ struct listNode
 {
     int data;
     listNode* nextAddress;
+    
+    //As this linked-list flows in only one direction, it's called --> SINGLY
 };
 
 listNode* createnode (int data)
