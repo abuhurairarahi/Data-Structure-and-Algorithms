@@ -100,11 +100,13 @@ int main()
     listNode* nodeD = createnode(4);
     listNode* nodeE = createnode(5);
 
+    //manual connection
     nodeA->nextAddress = nodeB;
     nodeB->nextAddress = nodeC;
     nodeC->nextAddress = nodeD;
     nodeD->nextAddress = nodeE;
 
+    //assigning tracker
     head = nodeA;
     tail = nodeE;
 
